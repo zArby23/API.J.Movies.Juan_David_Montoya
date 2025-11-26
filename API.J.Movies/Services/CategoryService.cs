@@ -84,7 +84,7 @@ namespace API.J.Movies.Services
             // Mapear toda la colección de una vez
             return _mapper.Map<CategoryDto>(category);
         }
-
+            
         public async Task<CategoryDto> UpdateCategoryAsync(CategoryCreateUpdateDto dto, int id)
         {
             //Verificar si la categoría existe
